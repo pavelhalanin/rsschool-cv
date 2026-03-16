@@ -21,7 +21,7 @@ I am a IT professional with a strong academic foundation, having graduated with 
 
 ## 4. Skills
 
-- programming languages: JavaScript, PHP8, SQL
+- programming languages: JavaScript, PHP8, SQL, TypeScript
 - frameworks: React, ReactNative, NextJS, NestJS
 - methodologies: ARIS, UML
 - version control systems: Git, SVN
@@ -36,6 +36,7 @@ I am a IT professional with a strong academic foundation, having graduated with 
 - Design: Figma, Photopea, Adobe Photoshop
 - Hosting & Server Management: cPanel, ISPmanager, Hoster.by, Login.by
 - AI & Local Models: Ollama
+- DevOps & Infrastructure: Apache, WAMP, nginx
 
 ## 5. Code Examples
 
@@ -161,6 +162,7 @@ catch(Throwable $exception) {
     - Specialty: "Information Technology Software"
 
 ## 8. Languages
+
 - English - I read, I speak fluently
 - Russian - native Landuage
 - Belarusian - native Landuage
