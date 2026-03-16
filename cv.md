@@ -39,9 +39,6 @@ I am a IT professional with a strong academic foundation, having graduated with 
 
 ## 5. Code Examples
 
-<details>
-<summary>JavaScript</summary>
-
 ```js
 class Helper {
     static async fetchCompanyData_byUnp(unp) {
@@ -67,11 +64,6 @@ catch(exception) {
     console.error(exception);
 }
 ```
-
-</details>
-
-<details>
-<summary>PHP</summary>
 
 ```php
 try {
@@ -145,9 +137,6 @@ catch(Throwable $exception) {
     print_r($exception);
 }
 ```
-
-</details>
-
 
 ## 6. Work Experience (2 year 10 month) (updated at 16 March, 2026)
 
