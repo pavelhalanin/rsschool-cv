@@ -26,3 +26,11 @@ body {
     width: 100%;
     flex: 0 0 auto;
 }
+
+:root {
+    --menu-heigth: 50px;
+}
+
+* {
+    scroll-margin-top: var(--menu-heigth);
+}
