@@ -29,6 +29,11 @@ body {
 
 :root {
     --menu-heigth: 50px;
+    --color-viber: #7360f1;
+    --color-whatsapp: #00e676;
+    --color-telegram: #3390ec;
+    --color-discord: #5764f2;
+    --color-linked-in: #0073b2;
 }
 
 * {
