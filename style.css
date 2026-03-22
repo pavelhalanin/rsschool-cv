@@ -1,0 +1,28 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.wrapper__content {
+    width: 100%;
+    flex: 1 0 auto;
+}
+
+.wrapper__footer {
+    width: 100%;
+    flex: 0 0 auto;
+}
