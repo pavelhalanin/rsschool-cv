@@ -192,8 +192,40 @@
             <section id="Code-Examples">
                 <div class="container">
                     <h2>5. Code Examples</h2>
-                    <pre>
-class Helper {
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne">
+                                    RS School JavaScript assignments
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <pre class="mb-0"><code class="language-js">function getCardId(value) {
+    const ARRAY_RANK = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
+    const ARRAY_SUIT = ['♣', '♦', '♥', '♠'];
+    const RANK = `${value}`.replace(/[♣♦♥♠]$/, '');
+    const SUIT = `${value}`.replace(/[^♣♦♥♠]/g, '');
+    const RANK_ID = ARRAY_RANK.indexOf(RANK);
+    const SUIT_ID = ARRAY_SUIT.indexOf(SUIT);
+    return RANK_ID + 13 * SUIT_ID;
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo">
+                                    JavaScript async await 
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <pre class="mb-0"><code class="language-js">class Helper {
     static async fetchCompanyData_byUnp(unp) {
         const URL_ = `https://grp.nalog.gov.by/api/grp-public/data?unp=${unp}`;
         const RESPONSE = await fetch(URL_);
@@ -215,80 +247,11 @@ try {
 }
 catch(exception) {
     console.error(exception);
-}
-                    </pre>
-                    <pre>
-try {
-    $HOME = strlen($_SERVER['DOCUMENT_ROOT']) != 0 ? $_SERVER['DOCUMENT_ROOT'] : "";
-
-    class VisitCount {
-        static function getData() {
-            global $HOME;
-
-            $pdo = new PDO("sqlite:$HOME/../_visit_count_database.sqlite");
-            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-            $sql = "SELECT
-                        *
-                    FROM
-                        VisitCount
-                    WHERE
-                        uri = :uri
-                    ";
-
-            $sth = $pdo->prepare($sql);
-            $sth->execute([
-                'uri' => $uri,
-            ]);
-            $result = $sth->fetch(PDO::FETCH_ASSOC);
-
-            $isFound = $result != null;
-            $datetime = date('Y-m-d H:i:s');
-
-            if ($isFound) {
-                $count = $result['count'] + 1;
-
-                $sql = "UPDATE
-                            VisitCount
-                        SET
-                            count = :count,
-                            updated_at = :datetime
-                        WHERE
-                            uri = :uri
-                        ";
-
-                $sth = $pdo->prepare($sql);
-                $sth->execute([
-                    'uri' => $uri,
-                    'count' => $count,
-                    'datetime' => $datetime,
-                ]);
-            }
-
-            if (!$isFound) {
-                $sql = "INSERT INTO
-                            VisitCount
-                            (uri, count, created_at, updated_at)
-                        VALUES
-                            (:uri, :count, :datetime, :datetime)
-                        ";
-
-                $sth = $pdo->prepare($sql);
-                $sth->execute([
-                    'uri' => $uri,
-                    'count' => $count,
-                    'datetime' => $datetime,
-                ]);
-            }
-        }
-    }
-
-}
-catch(Throwable $exception) {
-    echo "<"; echo "pre"; echo ">";
-    print_r($exception);
-}
-                    </pre>
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section id="Work-Experience">
@@ -351,6 +314,10 @@ catch(Throwable $exception) {
         </div>
     </div>
     <script src="/rsschool-cv/script.js"></script>
+
+    <link rel="stylesheet" href="/rsschool-cv/assets/libs/highlight.js/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css" />
+    <script src="/rsschool-cv/assets/libs/highlight.js/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 
 </html>
