@@ -27,6 +27,11 @@ body {
     flex: 0 0 auto;
 }
 
+.footer {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+}
+
 :root {
     --menu-heigth: 50px;
     --color-viber: #7360f1;
@@ -38,4 +43,38 @@ body {
 
 * {
     scroll-margin-top: var(--menu-heigth);
+}
+
+.menu__div_fixed_content {
+    height: var(--menu-heigth);
+}
+
+.link__a--viber {
+    background-color: var(--color-viber);
+    border-color: var(--color-viber);
+}
+
+.link__a--whatsapp {
+    background-color: var(--color-whatsapp);
+    border-color: var(--color-whatsapp);
+}
+
+.link__a--telegram {
+    background-color: var(--color-telegram);
+    border-color: var(--color-telegram);
+}
+
+.link__a--linked-in {
+    background-color: var(--color-linked-in);
+    border-color: var(--color-linked-in);
+}
+
+.link__a--discord {
+    background-color: var(--color-discord);
+    border-color: var(--color-discord);
+}
+
+.drive_license__div {
+    display: flex;
+    gap: 8px;
 }

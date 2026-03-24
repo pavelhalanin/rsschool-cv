@@ -41,7 +41,7 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/rsschool-cv/assets/favicon/favicon_152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/rsschool-cv/assets/favicon/favicon_180.png">
 
-    <meta name="apple-mobile-web-app-title" content="CV Pavel Halanin - Middle Software Engineer" />
+    <meta name="apple-mobile-web-app-title" content="CV Pavel Halanin - Middle Software Engineer">
 
     <link rel="apple-touch-icon-precomposed" href="/rsschool-cv/assets/favicon/favicon_152.png" sizes="152x152">
     <link rel="apple-touch-icon-precomposed" href="/rsschool-cv/assets/favicon/favicon_120.png" sizes="120x120">
@@ -73,7 +73,7 @@
 
     <!-- FAVICON > > > > > > > > -->
 
-    <link rel="stylesheet" href="/rsschool-cv/style.css?nocache=2026-03-22_22-25">
+    <link rel="stylesheet" href="/rsschool-cv/style.css?nocache=2026-03-25_00-09">
     <link rel="stylesheet" href="/rsschool-cv/assets/libs/bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="/rsschool-cv/assets/libs/bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet"
@@ -128,7 +128,7 @@
                 </div>
             </nav>
 
-            <div style="height: var(--menu-heigth);"></div>
+            <div class="menu__div_fixed_content"></div>
 
             <section id="Full-Name" class="mb-2">
                 <div class="container">
@@ -154,73 +154,82 @@
                     <h2>2. Contact information</h2>
 
                     <table class="table table-bordered table-sm">
-                        <tr>
-                            <th class="text-end" width="100">
-                                Phone
-                            </th>
-                            <td>
-                                <a target="_blank" class="btn btn-primary" href="tel:+375333313203">
-                                    <i class="fa-solid fa-phone"></i>
-                                    +375-33-331-32-03
-                                </a>
-                                <a target="_blank" class="btn btn-primary" href="viber://add?number=375333313203"
-                                    style="background-color: var(--color-viber); border-color: var(--color-viber);">
-                                    <i class="fa-brands fa-viber"></i>
-                                </a>
-                                <a target="_blank" class="btn btn-primary"
-                                    href="https://api.whatsapp.com/send?phone=375333313203"
-                                    style="background-color: var(--color-whatsapp); border-color: var(--color-whatsapp);">
-                                    <i class="fa-brands fa-whatsapp"></i>
-                                </a>
-                                <a target="_blank" class="btn btn-primary" href="https://t.me/+375333313203"
-                                    style="background-color: var(--color-telegram); border-color: var(--color-telegram);">
-                                    <i class="fa-brands fa-telegram"></i>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="text-end">
-                                E-mail
-                            </th>
-                            <td>
-                                <a target="_blank" class="btn btn-primary" href="mailto:pavelhalanin@outlook.com">
-                                    <i class="fa-solid fa-envelope"></i>
-                                    pavelhalanin@outlook.com
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="text-end">
-                                Other
-                            </th>
-                            <td>
-                                <a target="_blank" class="btn btn-primary"
-                                    href="https://www.linkedin.com/in/pavelhalanin/"
-                                    style="background-color: var(--color-linked-in); border-color: var(--color-linked-in);">
-                                    <i class="fa-brands fa-linkedin"></i>
-                                    LinkedIn: pavelhalanin
-                                </a>
-                                <button type="button" class="btn btn-primary" onclick="alert('My nickname pavgal')"
-                                    style="background-color: var(--color-discord); border-color: var(--color-discord);">
-                                    <i class="fa-brands fa-discord"></i>
-                                    Discord: pavgal
-                                </button>
-                                <a target="_blank" class="btn btn-dark" href="https://github.com/pavelhalanin">
-                                    <i class="fa-brands fa-github"></i>
-                                    GitHub: pavelhalanin
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="text-end">
-                                Website
-                            </th>
-                            <td>
-                                <a target="_blank" class="btn btn-primary" href="https://www.de-pa.by/">OOO DE-PA</a>
-                                <a target="_blank" class="btn btn-danger" href="https://www.kungconsulting.com/">Kung
-                                    Consulting</a>
-                            </td>
-                        </tr>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <th class="text-end" width="100">
+                                    Phone
+                                </th>
+                                <td>
+                                    <a target="_blank" class="btn btn-primary" href="tel:+375333313203">
+                                        <i class="fa-solid fa-phone"></i>
+                                        +375&#8209;33&#8209;331&#8209;32&#8209;03
+                                    </a>
+                                    <a target="_blank" class="btn btn-primary" href="viber://add?number=375333313203"
+                                        class="link__a--viber">
+                                        <i class="fa-brands fa-viber"></i>
+                                    </a>
+                                    <a target="_blank" class="btn btn-primary"
+                                        href="https://api.whatsapp.com/send?phone=375333313203"
+                                        class="link__a--whatsapp">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </a>
+                                    <a target="_blank" class="btn btn-primary" href="https://t.me/+375333313203"
+                                        class="link__a--telegram">
+                                        <i class="fa-brands fa-telegram"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="text-end">
+                                    E&#8209;mail
+                                </th>
+                                <td>
+                                    <a target="_blank" class="btn btn-primary" href="mailto:pavelhalanin@outlook.com">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        pavelhalanin@outlook.com
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="text-end">
+                                    Other
+                                </th>
+                                <td>
+                                    <a target="_blank" class="btn btn-primary"
+                                        href="https://www.linkedin.com/in/pavelhalanin/"
+                                        class="link__a--linked-in">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                        LinkedIn: pavelhalanin
+                                    </a>
+                                    <button type="button" class="btn btn-primary" onclick="alert('My nickname pavgal')"
+                                        class="link__a--discord">
+                                        <i class="fa-brands fa-discord"></i>
+                                        Discord: pavgal
+                                    </button>
+                                    <a target="_blank" class="btn btn-dark" href="https://github.com/pavelhalanin">
+                                        <i class="fa-brands fa-github"></i>
+                                        GitHub: pavelhalanin
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="text-end">
+                                    Website
+                                </th>
+                                <td>
+                                    <a target="_blank" class="btn btn-primary" href="https://www.de-pa.by/">OOO DE-PA</a>
+                                    <a target="_blank" class="btn btn-danger" href="https://www.kungconsulting.com/">Kung
+                                        Consulting</a>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </section>
@@ -233,7 +242,7 @@
                         Node.js, NestJS, PHP, REST API, SwaggerUI, Docker, Git. Seeking a Middle Software Engineer
                         position in a
                         professional team with opportunities for further growth.</p>
-                    <div class="d-flex" style="gap: 16px;">
+                    <div class="drive_license__div">
                         <div>
                             <i class="fa-regular fa-square"></i> A1
                         </div>
@@ -280,13 +289,13 @@
                         <li>Debugging Tools: Chrome DevTools</li>
                         <li>Operating Systems: Windows, Linux</li>
                         <li>API Testing: Postman, SwaggerUI</li>
-                        <li>Markup & Documentation Languages: HTML5, CSS3, MarkDown, LaTeX, JSON</li>
+                        <li>Markup &amp; Documentation Languages: HTML5, CSS3, MarkDown, LaTeX, JSON</li>
                         <li>Databases: MySQL, Oracle, SQLite, DBF</li>
-                        <li>Containers & Virtualization: Docker, docker-compose</li>
+                        <li>Containers &amp; Virtualization: Docker, docker-compose</li>
                         <li>Design: Figma, Photopea, Adobe Photoshop</li>
-                        <li>Hosting & Server Management: cPanel, ISPmanager, Hoster.by, Login.by</li>
-                        <li>AI & Local Models: Ollama</li>
-                        <li>DevOps & Infrastructure: Apache, WAMP, nginx</li>
+                        <li>Hosting &amp; Server Management: cPanel, ISPmanager, Hoster.by, Login.by</li>
+                        <li>AI &amp; Local Models: Ollama</li>
+                        <li>DevOps &amp; Infrastructure: Apache, WAMP, nginx</li>
                     </ul>
                 </div>
             </section>
@@ -402,7 +411,7 @@ catch(exception) {
                 </div>
             </section>
         </div>
-        <div class="wrapper__footer" style="background-color: var(--bs-dark); color: var(--bs-light);">
+        <div class="wrapper__footer footer">
             <div class="container">
                 <footer class="pb-4 pt-4 text-center">
                     Pavel Halanin © 2026 (updated at 3/22/2026 10:50 PM)
