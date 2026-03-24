@@ -2,7 +2,13 @@
 
 Pavel Halanin
 
-<img src="https://media.licdn.com/dms/image/v2/D4D03AQENvTOEk0nyLA/profile-displayphoto-scale_400_400/B4DZygQCpIJ4Ak-/0/1772215088258?e=1775088000&v=beta&t=F-_aX9ylgQhtjFx62xJoMBeWF5pSWXJTuOIC39PyIAs" style="max-height: 100px;" />
+<img src="https://pavelhalanin.github.io/rsschool-cv/assets/favicon/favicon_144.png" />
+
+Middle Software Engineer
+
+Work Experience 3 year
+
+(JavaScript, React, React Native, Next.js, Node.js, NestJS, PHP, REST API, SwaggerUI, Docker, Git)
 
 ## 2. Contact information
 
@@ -17,7 +23,7 @@ Pavel Halanin
 
 ## 3. Brief Self-Introduction
 
-Software Engineer with 3 years of commercial experience, graduated with honors in Software Engineering. Began my career at DE-PA, then joined ATLANT, where I was promoted to Software Engineer 2nd Category within two years. Tech stack: JavaScript, React, React Native, Next.js, Node.js, NestJS, PHP, REST API, Docker, Git. Seeking a Middle Software Engineer position in a professional team with opportunities for further growth.
+Software Engineer with 3 years of commercial experience, graduated with honors in Software Engineering. Began my career at DE-PA, then joined ATLANT, where I was promoted to Software Engineer 2nd Category within two years. Tech stack: JavaScript, React, React Native, Next.js, Node.js, NestJS, PHP, REST API, SwaggerUI, Docker, Git. Seeking a Middle Software Engineer position in a professional team with opportunities for further growth.
 
 ## 4. Skills
 
