@@ -84,26 +84,21 @@ catch(exception) {
 }
 ```
 
-## 6. Work Experience (2 year 10 month) (updated at 16 March, 2026)
+## 6. Work Experience (3 year)
 
-- ZAO ATLANT
-    - December 2025 - present (4 month)
-    - 2nd category software engineer
+- ZAO ATLANT (June 2024 - present) (2 year)
+    - 2nd category Software Engineer (December 2025 - present)
+    - Software Engineer (June 2024 - December 2025)
 
-- ZAO ATLANT
-    - June 2024 - December 2025 (1 year 7 month)
-    - software engineer
-
-- OOO DE-PA
-    - June 2023 - June 2024 (1 year 1 month)
-    - software engineer
+- OOO DE-PA (1 year)
+    - Software Engineer (June 2023 - June 2024)
 
 ## 7. Education
 
-- Brest State Technical University
-    - September 2019 - 2023 (4 years)
+- Brest State Technical University (4 years)
+    - September 2019 - June 2023 
     - Diploma of Higher Education with Honors
-    - Qualification: "software engineer"
+    - Qualification: "Software Engineer"
     - Specialty: "Information Technology Software"
 
 ## 8. Languages
