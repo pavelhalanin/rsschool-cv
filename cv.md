@@ -2,7 +2,7 @@
 
 Pavel Halanin
 
-<img src="https://pavelhalanin.github.io/rsschool-cv/assets/favicon/favicon_144.png" />
+![photo](https://pavelhalanin.github.io/rsschool-cv/assets/favicon/favicon_144.png)
 
 Middle Software Engineer
 
