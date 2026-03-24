@@ -41,6 +41,18 @@ Software Engineer with 3 years of commercial experience, graduated with honors i
 ## 5. Code Examples
 
 ```js
+function getCardId(value) {
+    const ARRAY_RANK = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
+    const ARRAY_SUIT = ['♣', '♦', '♥', '♠'];
+    const RANK = `${value}`.replace(/[♣♦♥♠]$/, '');
+    const SUIT = `${value}`.replace(/[^♣♦♥♠]/g, '');
+    const RANK_ID = ARRAY_RANK.indexOf(RANK);
+    const SUIT_ID = ARRAY_SUIT.indexOf(SUIT);
+    return RANK_ID + 13 * SUIT_ID;
+}
+```
+
+```js
 class Helper {
     static async fetchCompanyData_byUnp(unp) {
         const URL_ = `https://grp.nalog.gov.by/api/grp-public/data?unp=${unp}`;
@@ -63,79 +75,6 @@ try {
 }
 catch(exception) {
     console.error(exception);
-}
-```
-
-```php
-try {
-    $HOME = strlen($_SERVER['DOCUMENT_ROOT']) != 0 ? $_SERVER['DOCUMENT_ROOT'] : "";
-
-    class VisitCount {
-        static function getData() {
-            global $HOME;
-
-            $pdo = new PDO("sqlite:$HOME/../_visit_count_database.sqlite");
-            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-            $sql = "SELECT
-                        *
-                    FROM
-                        VisitCount
-                    WHERE
-                        uri = :uri
-                    ";
-
-            $sth = $pdo->prepare($sql);
-            $sth->execute([
-                'uri' => $uri,
-            ]);
-            $result = $sth->fetch(PDO::FETCH_ASSOC);
-
-            $isFound = $result != null;
-            $datetime = date('Y-m-d H:i:s');
-
-            if ($isFound) {
-                $count = $result['count'] + 1;
-
-                $sql = "UPDATE
-                            VisitCount
-                        SET
-                            count = :count,
-                            updated_at = :datetime
-                        WHERE
-                            uri = :uri
-                        ";
-
-                $sth = $pdo->prepare($sql);
-                $sth->execute([
-                    'uri' => $uri,
-                    'count' => $count,
-                    'datetime' => $datetime,
-                ]);
-            }
-
-            if (!$isFound) {
-                $sql = "INSERT INTO
-                            VisitCount
-                            (uri, count, created_at, updated_at)
-                        VALUES
-                            (:uri, :count, :datetime, :datetime)
-                        ";
-
-                $sth = $pdo->prepare($sql);
-                $sth->execute([
-                    'uri' => $uri,
-                    'count' => $count,
-                    'datetime' => $datetime,
-                ]);
-            }
-        }
-    }
-
-}
-catch(Throwable $exception) {
-    echo "<pre>";
-    print_r($exception);
 }
 ```
 
