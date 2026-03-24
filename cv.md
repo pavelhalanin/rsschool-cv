@@ -17,7 +17,7 @@ Pavel Halanin
 
 ## 3. Brief Self-Introduction
 
-I am a IT professional with a strong academic foundation, having graduated with honors as a Software Engineer from Brest State Technical University. Since June 2023, I have been actively applying my skills in a professional environment. I am a licensed driver with categories Am, B, and C. Full-stack web development: Domains, Hosting, Coding, and Database integration.
+Software Engineer with 3 years of commercial experience, graduated with honors in Software Engineering. Began my career at DE-PA, then joined ATLANT, where I was promoted to Software Engineer 2nd Category within two years. Tech stack: JavaScript, React, React Native, Next.js, Node.js, NestJS, PHP, REST API, Docker, Git. Seeking a Middle Software Engineer position in a professional team with opportunities for further growth.
 
 ## 4. Skills
 
