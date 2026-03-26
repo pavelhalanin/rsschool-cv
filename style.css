@@ -7,74 +7,290 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
+    font-family: Roboto;
 }
 
-.wrapper {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-}
-
-.wrapper__content {
-    width: 100%;
-    flex: 1 0 auto;
-}
-
-.wrapper__footer {
-    width: 100%;
-    flex: 0 0 auto;
-}
-
-.footer {
-    background-color: var(--bs-dark);
-    color: var(--bs-light);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
 }
 
 :root {
-    --menu-heigth: 50px;
+    --site-color: #06c;
     --color-viber: #7360f1;
     --color-whatsapp: #00e676;
     --color-telegram: #3390ec;
     --color-discord: #5764f2;
-    --color-linked-in: #0073b2;
+    --color-linkedin: #0073b2;
+    --color-github: #24292e;
+    --color-outlook: #2a50c8;
 }
 
-* {
-    scroll-margin-top: var(--menu-heigth);
+a {
+    color: var(--site-color);
 }
 
-.menu__div_fixed_content {
-    height: var(--menu-heigth);
+.cv__content {
+    max-width: 1024px;
+    margin: 16px auto 0 auto;
+    box-shadow: 0px 0px 4px lightgray;
+    padding: 16px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
 }
 
-.link__a--viber {
+/* cv__nav */
+
+.cv__nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.cv__nav ul li {
+    list-style-type: none;
+}
+
+.cv__nav ul li a {
+    padding: 4px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 200px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cv__nav ul li a:hover {
+    box-shadow: 2px 2px 4px lightgray;
+}
+
+.cv__nav ul li a:active {
+    box-shadow: 3px 3px 8px lightgray;
+}
+
+/* cv_fullname */
+
+.cv_fullname {
+    display: flex;
+}
+
+.cv_fullname .cv_fullname__img_block {
+    width: 130px;
+}
+
+.cv_fullname .cv_fullname__img_block img {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.cv_fullname .cv_fullname__name_block {
+    width: 100%;
+    margin-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cv_fullname .cv_fullname__name_block>div {
+    width: 100%;
+}
+
+/* cv_contact_information */
+
+.cv_contact_information {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.cv_contact_information>li {
+    width: 100%;
+    list-style-type: none;
+}
+
+.cv_contact_information>li>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.cv_contact_information>li>ul>li {
+    list-style-type: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.cv_contact_information>li>ul>li>a,
+.cv_contact_information>li>ul>li>button {
+    display: block;
+    padding: 8px;
+    width: 220px;
+    background-color: var(--site-color);
+    border: 1px solid var(--site-color);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.cv_contact_information>li>ul>li>a:hover,
+.cv_contact_information>li>ul>li>button:hover {
+    transition: all 0.5s ease;
+    background-color: transparent !important;
+    color: var(--site-color);
+}
+
+.cv_contact_information>li>ul>li>a.--viber {
     background-color: var(--color-viber);
     border-color: var(--color-viber);
 }
 
-.link__a--whatsapp {
+.cv_contact_information>li>ul>li>a:hover.--viber {
+    color: var(--color-viber);
+}
+
+.cv_contact_information>li>ul>li>a.--whatsapp {
     background-color: var(--color-whatsapp);
     border-color: var(--color-whatsapp);
 }
 
-.link__a--telegram {
+.cv_contact_information>li>ul>li>a:hover.--whatsapp {
+    color: var(--color-whatsapp);
+}
+
+.cv_contact_information>li>ul>li>a.--telegram {
     background-color: var(--color-telegram);
     border-color: var(--color-telegram);
 }
 
-.link__a--linked-in {
-    background-color: var(--color-linked-in);
-    border-color: var(--color-linked-in);
+.cv_contact_information>li>ul>li>a:hover.--telegram {
+    color: var(--color-telegram);
 }
 
-.link__a--discord {
+.cv_contact_information>li>ul>li>a.--email {
+    width: 300px;
+    background-color: var(--color-outlook);
+    border-color: var(--color-outlook);
+}
+
+.cv_contact_information>li>ul>li>a:hover.--email {
+    color: var(--color-outlook);
+}
+
+.cv_contact_information>li>ul>li>a.--linkedin {
+    background-color: var(--color-linkedin);
+    border-color: var(--color-linkedin);
+}
+
+.cv_contact_information>li>ul>li>a:hover.--linkedin {
+    color: var(--color-linkedin);
+}
+
+.cv_contact_information>li>ul>li>button.--discord {
     background-color: var(--color-discord);
     border-color: var(--color-discord);
 }
 
-.drive_license__div {
+.cv_contact_information>li>ul>li>button:hover.--discord {
+    color: var(--color-discord);
+}
+
+.cv_contact_information>li>ul>li>a.--github {
+    background-color: var(--color-github);
+    border-color: var(--color-github);
+}
+
+.cv_contact_information>li>ul>li>a:hover.--github {
+    color: var(--color-github);
+}
+
+/* cv_skills */
+
+.cv_skills {
     display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 0 0 24px;
+}
+
+.cv_skills>li {
+    width: 100%;
+    position: relative;
+    margin: 4px 0;
+}
+
+.cv_skills>li>ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px 0 0 0;
+    padding: 0;
     gap: 8px;
+}
+
+.cv_skills>li>ul>li {
+    border: 1px solid var(--site-color);
+    border-radius: 6px;
+    padding: 4px;
+    list-style-type: none;
+}
+
+.cv_skills>li.--many_skils>ul {
+    padding: 0 0 0 24px;
+}
+
+.cv_skills>li.--many_skils>ul>li {
+    border: none;
+    width: 100%;
+    list-style-type: circle;
+}
+
+.cv_skills>li.--many_skils>ul>li>ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px 0 0 0;
+    padding: 0;
+    gap: 8px;
+}
+
+.cv_skills>li.--many_skils>ul>li>ul>li {
+    border: 1px solid var(--site-color);
+    border-radius: 6px;
+    padding: 4px;
+    list-style-type: none;
+}
+
+/* cv_code_examples */
+
+.cv_code_examples {
+    margin: 0;
+}
+
+.cv_code_examples li {
+    padding: 4px 0;
+}
+
+.cv_code_examples li pre {
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 4px lightgray;
+}
+
+/* cv_footer */
+
+.cv_footer {
+    padding-bottom: 16px;
+    text-align: center;
+    font-size: 2em;
 }
