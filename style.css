@@ -294,3 +294,28 @@ a {
     text-align: center;
     font-size: 2em;
 }
+
+.cv_footer__github {
+    display: flex;
+    justify-content: center;
+}
+
+.cv_footer__github a {
+    background-color: var(--color-github);
+    border: 1px solid var(--color-github);
+    font-size: 28px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 32px;
+    height: 32px;
+}
+
+.cv_footer__github a:hover {
+    color: var(--color-github);
+    background-color: transparent;
+}
