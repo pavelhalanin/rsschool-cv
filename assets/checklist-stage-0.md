@@ -4,7 +4,7 @@
 
 **Максимальный балл за задание +120**
 
-- [ ] студент засабмитил в [rs app](https://app.rs.school/course/student/cross-check-submit) ссылку на своё CV, задеплоенное на `gh-pages` +10
+- [x] студент засабмитил в [rs app](https://app.rs.school/course/student/cross-check-submit) ссылку на своё CV, задеплоенное на `gh-pages` +10
 - [x] вёрстка валидная +10
   - для проверки валидности вёрстки используйте сервис https://validator.w3.org/
   - валидной вёрстке соответствует надпись "Document checking completed. No errors or warnings to show." В таком случае баллы за пункт требований выставляем полностью.
