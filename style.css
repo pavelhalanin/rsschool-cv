@@ -131,6 +131,11 @@ a {
     gap: 8px;
     margin: 0;
     padding: 0;
+    padding-bottom: 8px;
+}
+
+.cv_contact_information>li:last-child>ul {
+    padding-bottom: 0;
 }
 
 .cv_contact_information>li>ul>li {
@@ -141,6 +146,7 @@ a {
 
 .cv_contact_information>li>ul>li>a,
 .cv_contact_information>li>ul>li>button {
+    all: unset;
     display: block;
     padding: 8px;
     width: 220px;
