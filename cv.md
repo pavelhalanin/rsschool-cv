@@ -2,7 +2,13 @@
 
 Pavel Halanin
 
-<img src="https://media.licdn.com/dms/image/v2/D4D03AQENvTOEk0nyLA/profile-displayphoto-scale_400_400/B4DZygQCpIJ4Ak-/0/1772215088258?e=1775088000&v=beta&t=F-_aX9ylgQhtjFx62xJoMBeWF5pSWXJTuOIC39PyIAs" style="max-height: 100px;" />
+![photo](https://pavelhalanin.github.io/rsschool-cv/assets/favicon/favicon_144.png)
+
+Middle Software Engineer
+
+Work Experience 3 year
+
+(JavaScript, React, React Native, Next.js, Node.js, NestJS, PHP, REST API, SwaggerUI, Docker, Git)
 
 ## 2. Contact information
 
@@ -17,7 +23,7 @@ Pavel Halanin
 
 ## 3. Brief Self-Introduction
 
-I am a IT professional with a strong academic foundation, having graduated with honors as a Software Engineer from Brest State Technical University. Since June 2023, I have been actively applying my skills in a professional environment. I am a licensed driver with categories Am, B, and C. Full-stack web development: Domains, Hosting, Coding, and Database integration.
+Software Engineer with 3 years of commercial experience, graduated with honors in Software Engineering. Began my career at DE-PA, then joined ATLANT, where I was promoted to Software Engineer 2nd Category within two years. Tech stack: JavaScript, React, React Native, Next.js, Node.js, NestJS, PHP, REST API, SwaggerUI, Docker, Git. Seeking a Middle Software Engineer position in a professional team with opportunities for further growth.
 
 ## 4. Skills
 
@@ -39,6 +45,18 @@ I am a IT professional with a strong academic foundation, having graduated with 
 - DevOps & Infrastructure: Apache, WAMP, nginx
 
 ## 5. Code Examples
+
+```js
+function getCardId(value) {
+    const ARRAY_RANK = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
+    const ARRAY_SUIT = ['♣', '♦', '♥', '♠'];
+    const RANK = `${value}`.replace(/[♣♦♥♠]$/, '');
+    const SUIT = `${value}`.replace(/[^♣♦♥♠]/g, '');
+    const RANK_ID = ARRAY_RANK.indexOf(RANK);
+    const SUIT_ID = ARRAY_SUIT.indexOf(SUIT);
+    return RANK_ID + 13 * SUIT_ID;
+}
+```
 
 ```js
 class Helper {
@@ -66,103 +84,38 @@ catch(exception) {
 }
 ```
 
-```php
-try {
-    $HOME = strlen($_SERVER['DOCUMENT_ROOT']) != 0 ? $_SERVER['DOCUMENT_ROOT'] : "";
+## 6. Work Experience (3 year)
 
-    class VisitCount {
-        static function getData() {
-            global $HOME;
+- ZAO ATLANT (2 year)
+    - 2nd category Software Engineer (December 2025 - present)
+    - Software Engineer (June 2024 - December 2025)
 
-            $pdo = new PDO("sqlite:$HOME/../_visit_count_database.sqlite");
-            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-            $sql = "SELECT
-                        *
-                    FROM
-                        VisitCount
-                    WHERE
-                        uri = :uri
-                    ";
-
-            $sth = $pdo->prepare($sql);
-            $sth->execute([
-                'uri' => $uri,
-            ]);
-            $result = $sth->fetch(PDO::FETCH_ASSOC);
-
-            $isFound = $result != null;
-            $datetime = date('Y-m-d H:i:s');
-
-            if ($isFound) {
-                $count = $result['count'] + 1;
-
-                $sql = "UPDATE
-                            VisitCount
-                        SET
-                            count = :count,
-                            updated_at = :datetime
-                        WHERE
-                            uri = :uri
-                        ";
-
-                $sth = $pdo->prepare($sql);
-                $sth->execute([
-                    'uri' => $uri,
-                    'count' => $count,
-                    'datetime' => $datetime,
-                ]);
-            }
-
-            if (!$isFound) {
-                $sql = "INSERT INTO
-                            VisitCount
-                            (uri, count, created_at, updated_at)
-                        VALUES
-                            (:uri, :count, :datetime, :datetime)
-                        ";
-
-                $sth = $pdo->prepare($sql);
-                $sth->execute([
-                    'uri' => $uri,
-                    'count' => $count,
-                    'datetime' => $datetime,
-                ]);
-            }
-        }
-    }
-
-}
-catch(Throwable $exception) {
-    echo "<pre>";
-    print_r($exception);
-}
-```
-
-## 6. Work Experience (2 year 10 month) (updated at 16 March, 2026)
-
-- ZAO ATLANT
-    - December 2025 - present (4 month)
-    - 2nd category software engineer
-
-- ZAO ATLANT
-    - June 2024 - December 2025 (1 year 7 month)
-    - software engineer
-
-- OOO DE-PA
-    - June 2023 - June 2024 (1 year 1 month)
-    - software engineer
+- OOO DE-PA (1 year)
+    - Software Engineer (June 2023 - June 2024)
 
 ## 7. Education
 
-- Brest State Technical University
-    - September 2019 - 2023 (4 years)
-    - Diploma of Higher Education with Honors
-    - Qualification: "software engineer"
-    - Specialty: "Information Technology Software"
+- Tech education
+    - Brest State Technical University (4 years)
+        - September 2019 - June 2023 
+        - Diploma of Higher Education with Honors
+        - Qualification: "Software Engineer"
+        - Specialty: "Information Technology Software"
+- Driving licence
+    - Category C
+    - Category B, AM
+- Courses
+    - RS School Stage 0 (16 March 2026 - 01 June 2026)
+        - [rsschool-cv](https://github.com/pavelhalanin/rsschool-cv)
+        - [js-assignments](https://github.com/pavelhalanin/js-assignments)
 
-## 8. Languages
+## 8. English Language
 
-- English - I read, I speak fluently
-- Russian - native Landuage
-- Belarusian - native Landuage
+### About English
+
+I read, I speak fluently. I've been practicing English for 12 years.
+
+### Other languages
+
+- Russian - native Language
+- Belarusian - native Language
