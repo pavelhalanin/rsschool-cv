@@ -50,6 +50,8 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 .cv__nav ul li {
