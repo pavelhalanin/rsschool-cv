@@ -86,7 +86,7 @@ catch(exception) {
 
 ## 6. Work Experience (3 year)
 
-- ZAO ATLANT (June 2024 - present) (2 year)
+- ZAO ATLANT (2 year)
     - 2nd category Software Engineer (December 2025 - present)
     - Software Engineer (June 2024 - December 2025)
 
@@ -95,14 +95,27 @@ catch(exception) {
 
 ## 7. Education
 
-- Brest State Technical University (4 years)
-    - September 2019 - June 2023 
-    - Diploma of Higher Education with Honors
-    - Qualification: "Software Engineer"
-    - Specialty: "Information Technology Software"
+- Tech education
+    - Brest State Technical University (4 years)
+        - September 2019 - June 2023 
+        - Diploma of Higher Education with Honors
+        - Qualification: "Software Engineer"
+        - Specialty: "Information Technology Software"
+- Driving licence
+    - Category C
+    - Category B, AM
+- Courses
+    - RS School Stage 0 (16 March 2026 - 01 June 2026)
+        - [rsschool-cv](https://github.com/pavelhalanin/rsschool-cv)
+        - [js-assignments](https://github.com/pavelhalanin/js-assignments)
 
-## 8. Languages
+## 8. English Language
 
-- English - I read, I speak fluently
-- Russian - native Landuage
-- Belarusian - native Landuage
+### About English
+
+I read, I speak fluently. I've been practicing English for 12 years.
+
+### Other languages
+
+- Russian - native Language
+- Belarusian - native Language
