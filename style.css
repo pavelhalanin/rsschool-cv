@@ -43,6 +43,12 @@ a {
     border-radius: 8px;
 }
 
+@media screen and (max-width: 1024px) {
+    .cv__content {
+        margin: 16px;
+    }
+}
+
 /* cv__nav */
 
 .cv__nav ul {
