@@ -1,2 +1,2 @@
-- [CV#1. Markdown & Git](https://pavelhalanin.github.io/rsschool-cv/cv)
-- [CV#2. HTML, CSS & Git Basics](https://pavelhalanin.github.io/rsschool-cv/)
+- [CV#1. Markdown & Git](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__CV/cv)
+- [CV#2. HTML, CSS & Git Basics](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__CV/)

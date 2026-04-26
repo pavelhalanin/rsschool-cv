@@ -2,7 +2,7 @@
 
 Pavel Halanin
 
-![photo](https://pavelhalanin.github.io/rsschool-cv/assets/favicon/favicon_144.png)
+![photo](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__CV/assets/favicon/favicon_144.png)
 
 Middle Software Engineer
 
@@ -106,7 +106,7 @@ catch(exception) {
     - Category B, AM
 - Courses
     - RS School Stage 0 (16 March 2026 - 01 June 2026)
-        - [rsschool-cv](https://github.com/pavelhalanin/rsschool-cv)
+        - [RSSchool_2026Q1_Stage0__CV](https://github.com/pavelhalanin/RSSchool_2026Q1_Stage0__CV)
         - [js-assignments](https://github.com/pavelhalanin/js-assignments)
 
 ## 8. English Language
