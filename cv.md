@@ -1,11 +1,12 @@
-<details open>
-<summary>EN CV</summary>
+# CV
 
-## 1. Full Name
+## EN CV
+
+### 1. Full Name
 
 Pavel Halanin
 
-## 2. Contact information
+### 2. Contact information
 
 - Phone: [+375-33-331-32-03](tel:+375333313203)
 - E-mail: [pavelhalanin@outlook.com](mailto:pavelhalanin@outlook.com)
@@ -14,11 +15,11 @@ Pavel Halanin
 - LinledIn: [pavelhalanin](https://www.linkedin.com/in/pavelhalanin/)
 - CodeWars: [rsschool](https://www.codewars.com/users/rsschool_7f3e087f4b5570c1)
 
-## 3. Brief Self-Introduction
+### 3. Brief Self-Introduction
 
 I graduated from Brest State Technical University with a degree in Information Technology Software. I received an honors diploma and the qualification of Software Engineer. I have been working in the field since 2023 (3 years of experience). In 2026, I joined RS School. In the spring of 2026, I successfully completed Stage 0. In the summer of 2026, I completed the [Stage 3 React course and received a certificate](https://app.rs.school/certificate/sbwv7urx). Also in the summer of 2026, I completed the [Stage 0.5 course and obtained a certificate](https://app.rs.school/certificate/zqp3ydoz). In the autumn of 2026, I am taking the Stage 1–2 course.
 
-## 4. Skills
+### 4. Skills
 
 - programming languages: JavaScript, TypeScript, PHP, SQL
 - frameworks: React, ReactNative, NextJS, NestJS
@@ -41,7 +42,7 @@ I graduated from Brest State Technical University with a degree in Information T
 - AI agents: ChatGPT, Deepseek, YandexGPT, GoogleGPT, Copilot, Duck.ai
 - DevOps & Infrastructure: Apache, WAMP, nginx
 
-## 5. Code Examples
+### 5. Code Examples
 
 ```js
 function getCardId(value) {
@@ -55,7 +56,7 @@ function getCardId(value) {
 }
 ```
 
-## 6. Work Experience
+### 6. Work Experience
 
 - ZAO ATLANT, Minsk
   - Period: December 2025 - present
@@ -66,14 +67,14 @@ function getCardId(value) {
   - Period: June 2023 - December 2024
     - job title: Software Enginer
 
-## 7. Education
+### 7. Education
 
 - Brest State Technical University
   - Type: Diploma of Higher Education with Honors
   - Specialty: Information Technology Software
   - Qualification: Software Engineer
 
-## 8. English Language
+### 8. English Language
 
 I read, I speak fluently. I've been practicing English for 12 years.
 
@@ -81,16 +82,13 @@ Other languages:
 - Russian - native Landuage
 - Belarusian - native Landuage
 
-</details>
+## RU CV
 
-<details open>
-<summary>RU CV</summary>
-
-## 1. Имя
+### 1. Имя
 
 Павел Галанин
 
-## 2. Контактная информация
+### 2. Контактная информация
 
 - Телефон: [+375-33-331-32-03](tel:+375333313203)
 - Электронная почта: [pavelhalanin@outlook.com](mailto:pavelhalanin@outlook.com)
@@ -99,11 +97,11 @@ Other languages:
 - LinledIn: [pavelhalanin](https://www.linkedin.com/in/pavelhalanin/)
 - CodeWars: [rsschool](https://www.codewars.com/users/rsschool_7f3e087f4b5570c1)
 
-## 3. Краткая информация о себе
+### 3. Краткая информация о себе
 
 Окончил Брестский Государственный Технический Университет по специальности "Программное обеспечение информационных технологий". Получил диплом с отличием с присвоением квалификации "Инженер-программист". По специальности работаю с 2023 года по настоящее время (3 года опыта). С 2026 года присоединился к школе RS School. Весной 2026 года успешно закончил Stage0. Летом 2026 года закончил [Stage3 React с сертификатом](https://app.rs.school/certificate/sbwv7urx). Летом 2026 года проходил курс [Stage0.5 и получил сертификат](https://app.rs.school/certificate/zqp3ydoz). Осенью 2026 года прохожу курс Stage1-2.
 
-## 4. Навыки
+### 4. Навыки
 
 - языки программирования: JavaScript, TypeScript, PHP, SQL
 - фреймворки: React, ReactNative, NextJS, NestJS
@@ -126,7 +124,7 @@ Other languages:
 - ИИ агенты: ChatGPT, Deepseek, YandexGPT, GoogleGPT, Copilot, Duck.ai
 - разработка, эксплуатация, инфраструктура: Apache, WAMP, nginx
 
-## 5. Примеры кода
+### 5. Примеры кода
 
 ```js
 function getCardId(value) {
@@ -140,7 +138,7 @@ function getCardId(value) {
 }
 ```
 
-## 6. Опыт работы
+### 6. Опыт работы
 
 - ЗАО АТЛАНТ, Минск
   - Период: декабрь 2025 - настоящее время
@@ -151,19 +149,17 @@ function getCardId(value) {
   - Период: июнь 2023 - декабрь 2024
     - должность: инженер-программист
 
-## 7. Образование 
+### 7. Образование 
 
 - Брестский Государственный Техничесский Универсистет
   - Тип: диплом о высшем образовании с отличием
   - Специальность: Программное обеспечение информационных технологий
   - Квалификация: инженер-программист
 
-## 8. Английский язык
+### 8. Английский язык
 
 Я читаю и свободно говорю. Я занимаюсь английским уже 12 лет
 
 Другие языки:
 - русский язык - родной язык
 - белорусский язык - родной язык
-
-</details>
