@@ -77,6 +77,32 @@ function getCardId(value) {
 }
 ```
 
+```js
+async function fetchData(unp) {
+  const URI = `https://grp.nalog.gov.by/api/grp-public/data?unp=${unp}&charset=UTF-8&type=json`;
+  const RESPONSE = await fetch(URI);
+
+  const HTTP_STATUS = RESPONSE.status;
+  if (HTTP_STATUS !== 200) {
+    const TEXT = await RESPONSE.text();
+    throw new Error(`HTTP ${HTTP_STATUS}\n${TEXT}`);
+  }
+
+  const DATA = await RESPONSE.json();
+  return DATA;
+}
+
+(async function() {
+  try {
+    const DATA = await fetchData('100582333');
+    console.info(DATA);
+  }
+  catch(exception) {
+    console.error(exception);
+  }
+})();
+```
+
 ### 6. Work Experience
 
 - ZAO ATLANT, Minsk
@@ -177,6 +203,32 @@ function getCardId(value) {
     const SUIT_ID = ARRAY_SUIT.indexOf(SUIT);
     return RANK_ID + 13 * SUIT_ID;
 }
+```
+
+```js
+async function fetchData(unp) {
+  const URI = `https://grp.nalog.gov.by/api/grp-public/data?unp=${unp}&charset=UTF-8&type=json`;
+  const RESPONSE = await fetch(URI);
+
+  const HTTP_STATUS = RESPONSE.status;
+  if (HTTP_STATUS !== 200) {
+    const TEXT = await RESPONSE.text();
+    throw new Error(`HTTP ${HTTP_STATUS}\n${TEXT}`);
+  }
+
+  const DATA = await RESPONSE.json();
+  return DATA;
+}
+
+(async function() {
+  try {
+    const DATA = await fetchData('100582333');
+    console.info(DATA);
+  }
+  catch(exception) {
+    console.error(exception);
+  }
+})();
 ```
 
 ### 6. Опыт работы
