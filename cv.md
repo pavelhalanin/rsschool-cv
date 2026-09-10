@@ -144,6 +144,16 @@ async function fetchData(unp) {
 - <img src="./assets/courses/it-shark.jpg" alt="" height="80"> IT Shark Pro
   - Period: 2018 - 2019
 
+#### Educational projects
+
+- [Christmas shop](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__ChristmasShop/)
+
+[![](./assets/educational-projects/Christmas-shop.jpg)](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__ChristmasShop/)
+
+- [Schelter](https://pavelhalanin.github.io/RSSchool_2026Q2_Stage0.5__shelter/)
+
+[![](./assets/educational-projects/Shelter.jpg)](https://pavelhalanin.github.io/RSSchool_2026Q2_Stage0.5__shelter/)
+
 ### 8. English Language
 
 I read, I speak fluently. I've been practicing English for 12 years.
@@ -274,6 +284,16 @@ async function fetchData(unp) {
 
 - <img src="./assets/courses/it-shark.jpg" alt="" height="80"> IT Shark Pro
   - Период: 2018 - 2019
+
+#### Учебные проекты
+
+- [Рождественский магазин](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__ChristmasShop/)
+
+[![](./assets/educational-projects/Christmas-shop.jpg)](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__ChristmasShop/)
+
+- [Питомник](https://pavelhalanin.github.io/RSSchool_2026Q2_Stage0.5__shelter/)
+
+[![](./assets/educational-projects/Shelter.jpg)](https://pavelhalanin.github.io/RSSchool_2026Q2_Stage0.5__shelter/)
 
 ### 8. Английский язык
 
