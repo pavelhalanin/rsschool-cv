@@ -1,5 +1,26 @@
 # CV
 
+## Nav
+
+- [EN CV](#en-cv)
+  - [1. Full Name](#1-full-name)
+  - [2. Contact information](#2-contact-information)
+  - [3. Brief Self-Introduction](#3-brief-self-introduction)
+  - [4. Skills](#4-skills)
+  - [5. Code Examples](#5-code-examples)
+  - [6. Work Experience](#6-work-experience)
+  - [7. Education](#7-education)
+  - [8. English Language](#8-english-language)
+- [RU CV](#ru-cv)
+  - [1. Имя](#1-имя)
+  - [2. Контактная информация](#2-контактная-информация)
+  - [3. Краткая информация о себе](#3-краткая-информация-о-себе)
+  - [4. Навыки](#4-навыки)
+  - [5. Примеры кода](#5-примеры-кода)
+  - [6. Опыт работы](#6-опыт-работы)
+  - [7. Образование](#7-образование)
+  - [8. Английский язык](#8-английский-язык)
+
 ## EN CV
 
 ### 1. Full Name
