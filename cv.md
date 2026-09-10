@@ -146,11 +146,17 @@ async function fetchData(unp) {
 
 #### Educational projects
 
-- [Christmas shop](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__ChristmasShop/)
+- Christmas shop:
+  [website](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__ChristmasShop/)
+  |
+  [repository](https://github.com/pavelhalanin/RSSchool_2026Q1_Stage0__ChristmasShop)
 
 [![](./assets/educational-projects/Christmas-shop.jpg)](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__ChristmasShop/)
 
-- [Schelter](https://pavelhalanin.github.io/RSSchool_2026Q2_Stage0.5__shelter/)
+- Schelter
+  [website](https://pavelhalanin.github.io/RSSchool_2026Q2_Stage0.5__shelter/)
+  |
+  [repository](https://github.com/pavelhalanin/RSSchool_2026Q2_Stage0.5__shelter)
 
 [![](./assets/educational-projects/Shelter.jpg)](https://pavelhalanin.github.io/RSSchool_2026Q2_Stage0.5__shelter/)
 
@@ -287,11 +293,18 @@ async function fetchData(unp) {
 
 #### Учебные проекты
 
-- [Рождественский магазин](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__ChristmasShop/)
+- Рождественский магазин:
+  [вебсайт](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__ChristmasShop/)
+  |
+  [репозиторий](https://github.com/pavelhalanin/RSSchool_2026Q1_Stage0__ChristmasShop)
+
 
 [![](./assets/educational-projects/Christmas-shop.jpg)](https://pavelhalanin.github.io/RSSchool_2026Q1_Stage0__ChristmasShop/)
 
-- [Питомник](https://pavelhalanin.github.io/RSSchool_2026Q2_Stage0.5__shelter/)
+- Питомник:
+  [вебсайт](https://pavelhalanin.github.io/RSSchool_2026Q2_Stage0.5__shelter/)
+  |
+  [репозиторий](https://github.com/pavelhalanin/RSSchool_2026Q2_Stage0.5__shelter)
 
 [![](./assets/educational-projects/Shelter.jpg)](https://pavelhalanin.github.io/RSSchool_2026Q2_Stage0.5__shelter/)
 
