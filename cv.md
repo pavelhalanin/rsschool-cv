@@ -290,5 +290,10 @@ async function fetchData(unp) {
     <img src="./assets/footer/rss-logo.svg" alt="RS School" height="100">
   </a>
 
-  © 2026 [Pavel Halanin](https://github.com/pavelhalanin)
+  © 2026 <a
+    title="Link to GitHub
+Ссылка на GitHub"
+    href="https://github.com/pavelhalanin">
+    Pavel Halanin
+  </a>
 </div>
