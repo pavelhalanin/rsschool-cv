@@ -106,12 +106,12 @@ async function fetchData(unp) {
 
 ### 6. Work Experience
 
-- ZAO ATLANT, Minsk
+- <img src="./assets/work/atlant.jpg" alt="" width="80"> ZAO ATLANT, Minsk
   - Period: December 2025 - present
     - job title: 2nd category Software Engineer
   - Period: June 2024 - December 2025
     - job title: Software Enginer
-- OOO DE-PA, Brest
+- <img src="./assets/work/de-pa-electric.png" alt="" width="80"> OOO DE-PA, Brest
   - Period: June 2023 - December 2024
     - job title: Software Enginer
 
@@ -234,12 +234,12 @@ async function fetchData(unp) {
 
 ### 6. Опыт работы
 
-- ЗАО АТЛАНТ, Минск
+- <img src="./assets/work/atlant.jpg" alt="" width="80"> ЗАО АТЛАНТ, Минск
   - Период: декабрь 2025 - настоящее время
     - должность: инженер-программист 2-ой категории
   - Период: июнь 2024 - декабрь 2025
     - должность: инженер-программист
-- ООО "ДЕ-ПА", Брест
+- <img src="./assets/work/de-pa-electric.png" alt="" width="80"> ООО "ДЕ-ПА", Брест
   - Период: июнь 2023 - декабрь 2024
     - должность: инженер-программист
 
