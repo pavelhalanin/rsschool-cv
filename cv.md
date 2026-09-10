@@ -26,6 +26,8 @@
 
 ### 1. Full Name
 
+![](./assets/name/I.png)
+
 Pavel Halanin
 
 ### 2. Contact information
@@ -153,6 +155,8 @@ Other languages:
 ## RU CV
 
 ### 1. Имя
+
+![](./assets/name/I.png)
 
 Павел Галанин
 
