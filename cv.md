@@ -90,10 +90,30 @@ function getCardId(value) {
 
 ### 7. Education
 
-- Brest State Technical University
+- <img src="./assets/education/brgtu.jpg" alt="" height="50"> Brest State Technical University
   - Type: Diploma of Higher Education with Honors
   - Specialty: Information Technology Software
   - Qualification: Software Engineer
+
+#### Courses
+
+- <img src="./assets/courses/rolling-scopes-school.png" alt="" height="50"> RS School
+  - [Stage 0.5] JS/Frontend Summer bootcamp 2026Q2
+    - Period: 01.06.2026 - 03.09.2026
+    - [Certificate](https://app.rs.school/certificate/zqp3ydoz)
+
+      [<img src="./assets/certificates/zqp3ydoz.jpg" alt="" height="100">](https://app.rs.school/certificate/zqp3ydoz)
+
+  - [Stage 3] React 2026 Q2
+    - Period: 27.04.2026 - 21.07.2026
+    - [Certificate](https://app.rs.school/certificate/sbwv7urx)
+
+      [<img src="./assets/certificates/sbwv7urx.jpg" alt="" height="100">](https://app.rs.school/certificate/sbwv7urx)
+  - [Stage 0] JS/Frontend Pre-School 2026 Q1
+    - Period: 16.03.2026 - 08.05.2026
+
+- <img src="./assets/courses/it-shark.jpg" alt="" height="50"> IT Shark Pro
+  - Period: 2018 - 2019
 
 ### 8. English Language
 
@@ -172,10 +192,31 @@ function getCardId(value) {
 
 ### 7. Образование 
 
-- Брестский Государственный Техничесский Универсистет
+- <img src="./assets/education/brgtu.jpg" alt="" height="50"> Брестский Государственный Техничесский Универсистет
   - Тип: диплом о высшем образовании с отличием
   - Специальность: Программное обеспечение информационных технологий
   - Квалификация: инженер-программист
+
+#### Курсы
+
+- <img src="./assets/courses/rolling-scopes-school.png" alt="" height="50"> RS School
+  - [Stage 0.5] JS/Frontend Summer bootcamp 2026Q2
+    - Период: 01.06.2026 - 03.09.2026
+    - [Сертификат](https://app.rs.school/certificate/zqp3ydoz)
+
+      [<img src="./assets/certificates/zqp3ydoz.jpg" alt="" height="100">](https://app.rs.school/certificate/zqp3ydoz)
+
+  - [Stage 3] React 2026 Q2
+    - Период: 27.04.2026 - 21.07.2026
+    - [Сертификат](https://app.rs.school/certificate/sbwv7urx)
+
+      [<img src="./assets/certificates/sbwv7urx.jpg" alt="" height="100">](https://app.rs.school/certificate/sbwv7urx)
+
+  - [Stage 0] JS/Frontend Pre-School 2026 Q1
+    - Период: 16.03.2026 - 08.05.2026
+
+- <img src="./assets/courses/it-shark.jpg" alt="" height="50"> IT Shark Pro
+  - Период: 2018 - 2019
 
 ### 8. Английский язык
 
