@@ -282,18 +282,21 @@ async function fetchData(unp) {
 ## Footer
 
 <div align="center">
-  <a
-    href="https://rs.school/courses/javascript"
-    title="Course link
-Ссылка на курс"
-  >
-    <img src="./assets/footer/rss-logo.svg" alt="RS School" height="100">
-  </a>
-
-  © 2026 <a
-    title="Link to GitHub
-Ссылка на GitHub"
-    href="https://github.com/pavelhalanin">
-    Pavel Halanin
-  </a>
+  <div>
+    <a
+      href="https://rs.school/courses/javascript"
+      title="Course link
+  Ссылка на курс"
+    >
+      <img src="./assets/footer/rss-logo.svg" alt="RS School" height="100">
+    </a>
+  </div>
+  <div>
+    © 2026 <a
+      title="Link to GitHub
+  Ссылка на GitHub"
+      href="https://github.com/pavelhalanin">
+      Pavel Halanin
+    </a>
+  </div>
 </div>
