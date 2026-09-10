@@ -41,7 +41,7 @@ Pavel Halanin
 
 ### 3. Brief Self-Introduction
 
-I graduated from Brest State Technical University with a degree in Information Technology Software. I received an honors diploma and the qualification of Software Engineer. I have been working in the field since 2023 (3 years of experience). In 2026, I joined RS School. In the spring of 2026, I successfully completed Stage 0. In the summer of 2026, I completed the [Stage 3 React course and received a certificate](https://app.rs.school/certificate/sbwv7urx). Also in the summer of 2026, I completed the [Stage 0.5 course and obtained a certificate](https://app.rs.school/certificate/zqp3ydoz). In the autumn of 2026, I am taking the Stage 1–2 course.
+I graduated from Brest State Technical University with a degree in Information Technology Software. Obtained a higher education diploma with honors, qualifying as a Software Engineer. I have been working in the field since 2023 (3 years of experience). Obtained a driver's license for categories: Am, B, C. In 2026, I joined RS School. In the spring of 2026, I successfully completed Stage 0. In the summer of 2026, I completed the [Stage 3 React course and received a certificate](https://app.rs.school/certificate/sbwv7urx). Also in the summer of 2026, I completed the [Stage 0.5 course and obtained a certificate](https://app.rs.school/certificate/zqp3ydoz). In the autumn of 2026, I am taking the Stage 1–2 course.
 
 ### 4. Skills
 
@@ -187,7 +187,7 @@ Other languages:
 
 ### 3. Краткая информация о себе
 
-Окончил Брестский Государственный Технический Университет по специальности "Программное обеспечение информационных технологий". Получил диплом с отличием с присвоением квалификации "Инженер-программист". По специальности работаю с 2023 года по настоящее время (3 года опыта). С 2026 года присоединился к школе RS School. Весной 2026 года успешно закончил Stage0. Летом 2026 года закончил [Stage3 React с сертификатом](https://app.rs.school/certificate/sbwv7urx). Летом 2026 года проходил курс [Stage0.5 и получил сертификат](https://app.rs.school/certificate/zqp3ydoz). Осенью 2026 года прохожу курс Stage1-2.
+Окончил Брестский Государственный Технический Университет по специальности "Программное обеспечение информационных технологий". Получил диплом о высшем образовании с отличием с присвоением квалификации "Инженер-программист". По специальности работаю с 2023 года по настоящее время (3 года опыта). Получил водительские права категории: Am, B, C. С 2026 года присоединился к школе RS School. Весной 2026 года успешно закончил Stage0. Летом 2026 года закончил [Stage3 React с сертификатом](https://app.rs.school/certificate/sbwv7urx). Летом 2026 года проходил курс [Stage0.5 и получил сертификат](https://app.rs.school/certificate/zqp3ydoz). Осенью 2026 года прохожу курс Stage1-2.
 
 ### 4. Навыки
 
