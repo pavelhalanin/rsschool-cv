@@ -20,6 +20,7 @@
   - [6. Опыт работы](#6-опыт-работы)
   - [7. Образование](#7-образование)
   - [8. Английский язык](#8-английский-язык)
+- [Footer](#footer)
 
 ## EN CV
 
@@ -277,3 +278,17 @@ async function fetchData(unp) {
 Другие языки:
 - русский язык - родной язык
 - белорусский язык - родной язык
+
+## Footer
+
+<div align="center">
+  <a
+    href="https://rs.school/courses/javascript"
+    title="Course link
+Ссылка на курс"
+  >
+    <img src="./assets/footer/rss-logo.svg" alt="RS School" height="100">
+  </a>
+
+  © 2026 [Pavel Halanin](https://github.com/pavelhalanin)
+</div>
