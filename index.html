@@ -283,17 +283,17 @@
                     <pre class="mb-0"><code class="language-js">async function fetchData(unp) {
       const URI = `https://grp.nalog.gov.by/api/grp-public/data?unp=${unp}&amp;charset=UTF-8&amp;type=json`;
       const RESPONSE = await fetch(URI);
-    
+
       const HTTP_STATUS = RESPONSE.status;
       if (HTTP_STATUS !== 200) {
         const TEXT = await RESPONSE.text();
         throw new Error(`HTTP ${HTTP_STATUS}\n${TEXT}`);
       }
-    
+
       const DATA = await RESPONSE.json();
       return DATA;
     }
-    
+
     (async function() {
       try {
         const DATA = await fetchData('100582333');
