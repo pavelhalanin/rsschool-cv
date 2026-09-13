@@ -280,7 +280,7 @@
                 </li>
                 <li>
                     <pre class="mb-0"><code class="language-js">async function fetchData(unp) {
-      const URI = `https://grp.nalog.gov.by/api/grp-public/data?unp=${unp}&charset=UTF-8&type=json`;
+      const URI = `https://grp.nalog.gov.by/api/grp-public/data?unp=${unp}&amp;charset=UTF-8&amp;type=json`;
       const RESPONSE = await fetch(URI);
     
       const HTTP_STATUS = RESPONSE.status;
