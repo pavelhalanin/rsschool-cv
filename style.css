@@ -10,6 +10,10 @@ body {
     margin: 0;
 }
 
+:root {
+    --color-primary: rgb(13, 110, 253);
+}
+
 #lang-en,
 #lang-ru {
     display: none;
@@ -31,16 +35,16 @@ body:has(#lang-ru:checked) [data-lang="ru"] {
 
 label[for='lang-ru'],
 label[for='lang-en'] {
-    color: rgb(13, 110, 253);
+    color: var(--color-primary);
     background-color: rgba(0, 0, 0, 0);
-    border-color: rgb(13, 110, 253);
+    border-color: var(--color-primary);
 }
 
 body:has(#lang-ru:checked) label[for='lang-ru'],
 body:has(#lang-en:checked) label[for='lang-en'] {
     color: rgb(255, 255, 255);
-    background-color: rgb(13, 110, 253);
-    border-color: rgb(13, 110, 253);
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
 }
 
 .page__content_wrapper {
@@ -67,10 +71,47 @@ body:has(#lang-en:checked) label[for='lang-en'] {
 
 .btn-primary {
     color: rgb(255, 255, 255);
-    background-color: rgb(13, 110, 253);
-    border-color: rgb(13, 110, 253);
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.btn-outline-primary {
+    color: var(--color-primary);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: var(--color-primary);
 }
 
 .text-primary {
-    color: rgb(13, 110, 253);
+    color: var(--color-primary);
+}
+
+.page__main_menu ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 4px;
+}
+
+.page__main_menu ul>li {
+    list-style-type: none;
+}
+
+.page__main_menu ul>li>a {
+    text-decoration: none;
+    display: block;
+}
+
+body:has(#id1-full-name:target) .page__main_menu a[href='#id1-full-name'],
+body:has(#id2-contact-information:target) .page__main_menu a[href='#id2-contact-information'],
+body:has(#id3-brief-self-introduction:target) .page__main_menu a[href='#id3-brief-self-introduction'],
+body:has(#id4-skills:target) .page__main_menu a[href='#id4-skills'],
+body:has(#id5-code-examples:target) .page__main_menu a[href='#id5-code-examples'],
+body:has(#id6-work-experience:target) .page__main_menu a[href='#id6-work-experience'],
+body:has(#id7-education:target) .page__main_menu a[href='#id7-education'],
+body:has(#id8-english-language:target) .page__main_menu a[href='#id8-english-language'] {
+    color: rgb(255, 255, 255);
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
 }
