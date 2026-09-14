@@ -182,3 +182,28 @@ body:has(#id8-english-language:target) .page__main_menu a[href='#id8-english-lan
     background-color: var(--color-telegram);
     border-color: var(--color-telegram);
 }
+
+#id4-skills>div>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#id4-skills>div>ul>li>ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+#id4-skills>div>ul>li>ul>li {
+    list-style-type: none;
+    display: block;
+    border: 1px solid var(--color-primary);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
