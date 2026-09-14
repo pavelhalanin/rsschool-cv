@@ -26,12 +26,21 @@ body:has(#lang-ru:checked) [data-lang="ru"] {
 
 body:has(#lang-en:checked) [data-lang="en"],
 body:has(#lang-ru:checked) [data-lang="ru"] {
-    display: inline;
+    display: inherit;
+}
+
+label[for='lang-ru'],
+label[for='lang-en'] {
+    color: rgb(13, 110, 253);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgb(13, 110, 253);
 }
 
 body:has(#lang-ru:checked) label[for='lang-ru'],
 body:has(#lang-en:checked) label[for='lang-en'] {
-    background-color: red;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 110, 253);
+    border-color: rgb(13, 110, 253);
 }
 
 .page__content_wrapper {
@@ -45,4 +54,23 @@ body:has(#lang-en:checked) label[for='lang-en'] {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     border: 2px solid #dee2e6;
     border-radius: 6px;
+}
+
+.btn {
+    border-radius: 6px;
+    border-width: 0.8px;
+    border-style: solid;
+    cursor: pointer;
+    margin: 4px 2px;
+    padding: 6px;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 110, 253);
+    border-color: rgb(13, 110, 253);
+}
+
+.text-primary {
+    color: rgb(13, 110, 253);
 }
