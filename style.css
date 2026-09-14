@@ -22,6 +22,17 @@ a {
     color: var(--color-link);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-primary);
+    margin: 0;
+    padding-bottom: 8px;
+}
+
 #lang-en,
 #lang-ru {
     display: none;
@@ -105,10 +116,6 @@ a[href='#top'] {
     color: var(--color-primary);
     background-color: rgba(0, 0, 0, 0);
     border-color: var(--color-primary);
-}
-
-.text-primary {
-    color: var(--color-primary);
 }
 
 .page__main_menu ul {
