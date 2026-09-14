@@ -271,3 +271,25 @@ body:has(#id8-english-language:target) .page__main_menu a[href='#id8-english-lan
     color: var(--color-secondary);
     padding-bottom: 8px;
 }
+
+#id7-education ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#id7-education ul>li {
+    list-style-type: none;
+}
+
+#id7-education .education__name_block {
+    font-weight: bold;
+}
+
+#id7-education .education__icon_block {
+    display: flex;
+    gap: 8px;
+    padding: 4px 0;
+}
