@@ -293,3 +293,27 @@ body:has(#id8-english-language:target) .page__main_menu a[href='#id8-english-lan
     gap: 8px;
     padding: 4px 0;
 }
+
+.footer__buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer__buttons a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: all ease 0.5s;
+}
+
+.footer__buttons a:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.footer__rights {
+    text-align: center;
+}
