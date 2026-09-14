@@ -47,6 +47,23 @@ body:has(#lang-en:checked) label[for='lang-en'] {
     border-color: var(--color-primary);
 }
 
+a[href='#top'] {
+    display: block;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    width: 64px;
+    height: 64px;
+    border: 2px solid var(--color-primary);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 .page__content_wrapper {
     padding: 8px 0;
 }
