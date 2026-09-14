@@ -11,6 +11,9 @@ body {
 }
 
 :root {
+    --color-viber: #5634b6;
+    --color-whatsapp: #25d366;
+    --color-telegram: #28a8ea;
     --color-primary: rgb(13, 110, 253);
 }
 
@@ -131,4 +134,45 @@ body:has(#id8-english-language:target) .page__main_menu a[href='#id8-english-lan
     color: rgb(255, 255, 255);
     background-color: var(--color-primary);
     border-color: var(--color-primary);
+}
+
+#id2-contact-information ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#id2-contact-information ul>li {
+    list-style-type: none;
+}
+
+#id2-contact-information ul>li>a {
+    display: block;
+    min-width: 240px;
+    text-decoration: none;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+#id2-contact-information a[data-contact-type="viber"] {
+    background-color: var(--color-viber);
+    border-color: var(--color-viber);
+}
+
+#id2-contact-information a[data-contact-type="whatsapp"] {
+    background-color: var(--color-whatsapp);
+    border-color: var(--color-whatsapp);
+}
+
+#id2-contact-information a[data-contact-type="telegram"] {
+    background-color: var(--color-telegram);
+    border-color: var(--color-telegram);
 }
