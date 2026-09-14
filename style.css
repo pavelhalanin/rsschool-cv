@@ -207,3 +207,19 @@ body:has(#id8-english-language:target) .page__main_menu a[href='#id8-english-lan
     padding: 4px 8px;
     border-radius: 4px;
 }
+
+#id5-code-examples ul {
+    margin: 0;
+    padding: 0;
+}
+
+#id5-code-examples ul>li {
+    list-style-type: none;
+}
+
+#id5-code-examples ul>li>pre {
+    border: 2px solid var(--color-primary);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
