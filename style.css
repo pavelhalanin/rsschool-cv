@@ -1,0 +1,320 @@
+html {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Roboto;
+}
+
+:root {
+    --color-viber: #5634b6;
+    --color-whatsapp: #25d366;
+    --color-telegram: #28a8ea;
+    --color-primary: rgb(13, 110, 253);
+    --color-secondary: #6c757d;
+    --color-success: #198754;
+    --color-link: #0d6efd;
+}
+
+a {
+    color: var(--color-link);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-primary);
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+#lang-en,
+#lang-ru {
+    display: none;
+}
+
+body:has(#lang-en:checked) [data-lang="en"],
+body:has(#lang-ru:checked) [data-lang="ru"] {
+    display: inline;
+}
+
+[data-lang] {
+    display: none;
+}
+
+body:has(#lang-en:checked) [data-lang="en"],
+body:has(#lang-ru:checked) [data-lang="ru"] {
+    display: inherit;
+}
+
+label[for='lang-ru'],
+label[for='lang-en'] {
+    color: var(--color-primary);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: var(--color-primary);
+}
+
+body:has(#lang-ru:checked) label[for='lang-ru'],
+body:has(#lang-en:checked) label[for='lang-en'] {
+    color: rgb(255, 255, 255);
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+a[href='#top'] {
+    display: block;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    width: 64px;
+    height: 64px;
+    border: 2px solid var(--color-primary);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.page__content_wrapper {
+    padding: 8px 0;
+}
+
+.page__content_inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border: 2px solid #dee2e6;
+    border-radius: 6px;
+}
+
+.btn {
+    border-radius: 6px;
+    border-width: 0.8px;
+    border-style: solid;
+    cursor: pointer;
+    margin: 4px 2px;
+    padding: 6px;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.btn-outline-primary {
+    color: var(--color-primary);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: var(--color-primary);
+}
+
+.page__main_menu ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 4px;
+}
+
+.page__main_menu ul>li {
+    list-style-type: none;
+}
+
+.page__main_menu ul>li>a {
+    text-decoration: none;
+    display: block;
+}
+
+body:has(#id1-full-name:target) .page__main_menu a[href='#id1-full-name'],
+body:has(#id2-contact-information:target) .page__main_menu a[href='#id2-contact-information'],
+body:has(#id3-brief-self-introduction:target) .page__main_menu a[href='#id3-brief-self-introduction'],
+body:has(#id4-skills:target) .page__main_menu a[href='#id4-skills'],
+body:has(#id5-code-examples:target) .page__main_menu a[href='#id5-code-examples'],
+body:has(#id6-work-experience:target) .page__main_menu a[href='#id6-work-experience'],
+body:has(#id7-education:target) .page__main_menu a[href='#id7-education'],
+body:has(#id8-english-language:target) .page__main_menu a[href='#id8-english-language'] {
+    color: rgb(255, 255, 255);
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+#id2-contact-information ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#id2-contact-information ul>li {
+    list-style-type: none;
+}
+
+#id2-contact-information ul>li>a {
+    display: block;
+    min-width: 240px;
+    text-decoration: none;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+#id2-contact-information a[data-contact-type="viber"] {
+    background-color: var(--color-viber);
+    border-color: var(--color-viber);
+}
+
+#id2-contact-information a[data-contact-type="whatsapp"] {
+    background-color: var(--color-whatsapp);
+    border-color: var(--color-whatsapp);
+}
+
+#id2-contact-information a[data-contact-type="telegram"] {
+    background-color: var(--color-telegram);
+    border-color: var(--color-telegram);
+}
+
+#id4-skills>div>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#id4-skills>div>ul>li>ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+#id4-skills>div>ul>li>ul>li {
+    list-style-type: none;
+    display: block;
+    border: 1px solid var(--color-primary);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+#id5-code-examples ul {
+    margin: 0;
+    padding: 0;
+}
+
+#id5-code-examples ul>li {
+    list-style-type: none;
+}
+
+#id5-code-examples ul>li>pre {
+    border: 2px solid var(--color-primary);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#id6-work-experience ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#id6-work-experience ul>li {
+    list-style-type: none;
+}
+
+.work__image_block {
+    height: 32px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 8px;
+}
+
+.work__image_block img {
+    max-width: 300px;
+    max-height: 32px;
+}
+
+.work__name_block {
+    font-weight: bold;
+}
+
+.work__period_block {
+    color: var(--color-secondary);
+    padding-top: 8px;
+}
+
+.work__job_block {
+    color: var(--color-secondary);
+    padding-bottom: 8px;
+}
+
+#id7-education ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#id7-education ul>li {
+    list-style-type: none;
+}
+
+#id7-education .education__name_block {
+    font-weight: bold;
+}
+
+#id7-education .education__icon_block {
+    display: flex;
+    gap: 8px;
+    padding: 4px 0;
+}
+
+.footer__buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer__buttons a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: all ease 0.5s;
+}
+
+.footer__buttons a:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.footer__rights {
+    text-align: center;
+}
