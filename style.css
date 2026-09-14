@@ -15,6 +15,8 @@ body {
     --color-whatsapp: #25d366;
     --color-telegram: #28a8ea;
     --color-primary: rgb(13, 110, 253);
+    --color-secondary: #6c757d;
+    --color-success: #198754;
     --color-link: #0d6efd;
 }
 
@@ -229,4 +231,43 @@ body:has(#id8-english-language:target) .page__main_menu a[href='#id8-english-lan
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#id6-work-experience ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#id6-work-experience ul>li {
+    list-style-type: none;
+}
+
+.work__image_block {
+    height: 32px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 8px;
+}
+
+.work__image_block img {
+    max-width: 300px;
+    max-height: 32px;
+}
+
+.work__name_block {
+    font-weight: bold;
+}
+
+.work__period_block {
+    color: var(--color-secondary);
+    padding-top: 8px;
+}
+
+.work__job_block {
+    color: var(--color-secondary);
+    padding-bottom: 8px;
 }
